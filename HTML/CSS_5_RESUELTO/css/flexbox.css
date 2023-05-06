@@ -1,0 +1,51 @@
+/* Color de fondo al main */
+main{
+    background-color: aquamarine;
+    height: 50vh;
+}
+
+
+/* Definir las dimensiones 
+de los flex-items
+y color de fondo */
+.flex-items{
+    width: 100px;
+    height: 50px;
+    background-color: darkcyan;
+    border: 1px solid black;
+    
+}
+
+
+/* Definir para el
+contenedor las propiedades
+display
+para justificar 
+altura 
+alinear los items */
+.flex-contenedor{
+    display: flex;
+    justify-content:center; /* Eje horizontal*/
+    height: 50%;
+    background-color: burlywood;
+    align-items:center; /* Eje vertical*/
+    column-gap: 10px;
+    flex-wrap: wrap;
+}
+
+
+@media screen and (max-width:600px){
+    .flex-contenedor{
+        display: flex;
+        flex-direction: column;
+        height: 70%;
+        row-gap: 10px;
+        justify-content:center;       
+        
+    }
+    
+}
+
+
+
+

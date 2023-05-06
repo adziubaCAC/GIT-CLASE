@@ -1,0 +1,16 @@
+#p1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#p2{
+    font-family: "Roboto" ;
+
+}
+
+@font-face {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    src: url("../fonts/Anuphan\,Roboto_Mono/#p3");
+}
+
+#p3{
+    font-family: r;
+}

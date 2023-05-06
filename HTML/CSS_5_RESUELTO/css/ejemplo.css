@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+/* Fuente de la carpeta fonts */
+/* @font-face {
+    font-family: ;
+    src: url();
+} */
+
+@font-face {
+    font-family: "Giliams";
+    src: url('../fonts/giliams/Giliams-Regular.ttf');
+}
+
+
+/* ------Estilo al encabezado----- */
+/* Definir las propiedades
+para incorporar flex
+y justificar el contenido */
+#menu{
+    display: flex;
+    justify-content:end;
+    column-gap: 2%;
+    height: 10vh;
+    background-color: darkcyan;
+    align-items: center;
+}
+
+/* Estilo a los hipervínculos */
+/* Aplicando selector hijo directo 
+padre > hijo, esto evita agregar 
+una clase a cada hipervínculo
+definir tamaño de fuente
+Eliminar el subrayado con: text-decoration
+agregar un margen para separar*/
+#menu > a{
+    text-decoration: none;
+    font-family: "Giliams";
+    font-size: 130%;
+}
+
+/* Agregar una pseudoclase a los 
+hipervinculos 
+una vez visitado
+y color al pasar cursor*/
+a:hover{
+    color: white;
+}
+
+
+/* ------Estilo para la sección----- */
+/* Acceder a la sección por su clase
+agregar la propiedad para definir flex
+indicar la dirección en columnas
+alinear los items al centro */
+.flex-seccion{
+    display: flex;
+    flex-direction: column;
+    align-items: center; /*Horizontal para columns*/
+    row-gap: 30px;
+    
+}
+
+/* Estilo al titulo
+tamaño de fuente con unidades flexibles
+vh */
+
+
+/* Estilo al párrafo tamaño de fuente con unidades flexibles
+vw */
+#cabeza-pie{
+font-size: xx-large red ;
+
+}
+
+/* --------Estilo para el contenido principal---- */
+.flex-main{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+/* Estilos para el seccion */
+.flex-seccion2{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+/* Mismo estilo para header y footer
+alto
+color fondo */
+
+
+
+/* Separar el main y secciones */

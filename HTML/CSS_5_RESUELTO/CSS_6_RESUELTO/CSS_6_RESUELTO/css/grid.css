@@ -1,0 +1,88 @@
+/* Definir las propiedades
+para los hijos (.box)
+color de fondo
+padding
+color
+alinear texto
+borde */
+.box{
+    background-color: cadetblue;
+    padding: 10px;
+    color: black;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+
+/* Definir las propiedades para el contenedor
+alto con 60vh
+color fondo
+display
+tamaño de 3 columnas (grid-template-columns)
+Tamaño de filas 
+indicar valores con:
+px --> justificar y alinear el contenido
+Separar cajas con gap
+%
+Fracción fr
+repeat(columnas, medida)
+Responsive: repeat(auto-fit, minmax(px,1fr));
+ */
+.contenedor{
+    height: 60vh;
+    background-color: aquamarine;
+    display: grid;
+    /* grid-template-columns: 100px 100px 100px; */
+    /* grid-template-rows: 100px; */
+    /*grid-auto-rows: 100px;  Para cada nueva fila la agrega con la medida indicada*/
+
+    /*grid-template-columns: 30% 20% 20%;  Tener en cuenta el gap porque se le suma y desborda las cajitas*/
+    /* grid-template-rows: 20%;
+    grid-auto-rows: 20%; */
+
+    /* grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr;
+    grid-auto-rows: 1fr; */
+
+    /* grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-auto-rows: 1fr; */
+    
+    /* Responsive correcto: repeat(auto-fit, minmax(px,1fr)) */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    /* grid-template-columns: repeat(3, minmax(200px, 1fr)); */
+    grid-template-rows: repeat(1, 1fr);
+    grid-auto-rows: 1fr;
+
+    justify-content:center; /* Eje horizontal*/
+    align-content: center; /* Eje vertical*/
+    /* column-gap: 1%;
+    row-gap: 2%; */
+    gap: 4%
+}
+
+
+/* Agregar una media queries para móvil
+modificar a dos columnas el contenedor
+y con grid-auto-rows para indicar que
+las filas siguientes tengan tamaño 
+definido
+ */
+/* 
+@media screen and (max-width: 600px){
+    .contenedor{
+        height: 60vh;
+        background-color: aquamarine;
+        display: grid;
+      
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        grid-auto-rows: 1fr;
+        
+        /*justify-content:center;  Eje horizontal*/
+        /*align-content: center;  Eje vertical*/
+        /*gap: 4%
+    }
+    
+} */

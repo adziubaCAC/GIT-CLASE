@@ -1,0 +1,16 @@
+.parrafo{
+    color: blueviolet
+}
+
+p{
+    color: chocolate 
+}
+
+#especial{
+    color: darkgreen; background-color: cadetblue; font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#prueba{
+    color: crimson; background-color: black; font: size 40px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

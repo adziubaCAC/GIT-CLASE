@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+
+
+}
+
+.contenedor{
+width: 600px;
+height: 900px;
+background-color: chartreuse;
+}
+
+#p1{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position: static;
+   
+}
+
+#p2{
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 100px;
+    top: 50px;
+    left: -30px;
+}
+
+#p3{
+    height: 100px;
+    width: 100px;
+    background-color:green;
+    position: absolute;
+    top: 600px;
+    left: 300px;
+    }
+
+    #p4{
+        height: 100px;
+        width: 100px;
+        background-color: orange;
+        position: fixed;
+       
+    }

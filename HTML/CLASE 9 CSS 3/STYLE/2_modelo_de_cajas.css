@@ -1,0 +1,24 @@
+#p1{
+    width: 300px;
+    height: 100px;
+    border-color:black; border-style:solid;border-width: 5px;
+}
+
+#p2{
+    width: 300px;
+    height: 100px;
+    border: 5px solid orange;
+;
+margin: 5px 10px 15px 20px;
+padding: 30px;
+border-style: double solid dotted groove;
+border-color: brown red green violet;
+}
+
+.rango{
+width: 300px;
+height: auto;
+border: 2px solid black;
+background-color: aquamarine;
+
+}

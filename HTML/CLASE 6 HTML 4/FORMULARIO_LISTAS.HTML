@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIOS</title>
+</head>
+
+<body>
+    <h1>Formulario con Listas</h1>
+
+    <form action="">
+        <div>
+            <label for="navegador">Selecciona un navegador</label>
+            <select name="Browser_ingresado" id="navegador">
+                <option>EDGE</option>
+                <option>CHROME</option>
+                <option>FIREFOX</option>
+                <option>OPERA</option>
+                <option>SAFARI</option>
+            </select>
+        </div>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+
+        <section>
+            <form action="">
+                <h3>Navegadores</h3>
+                <label for="navegador">Selecciona un navegador</label>
+                <input list="navegadores" name="Browser_ingresado" id="navegador">
+                <datalist id="navegadores">
+                    <option value="EDGE">EDGE</option>
+                    <option value="CHROME">CHROME</option>
+                    <option value="FIREFOX">FIREFOX</option>
+                    <option value="OPERA">OPERA</option>
+                    <option value="SAFARI">SAFARI</option>
+
+                </datalist>
+
+
+            </form>
+
+
+        </section>
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </div>
+<br>
+        <a href="INDEX.HTML">Regresar al index</a>
+</body>
+
+</html>
